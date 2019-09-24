@@ -143,3 +143,6 @@ compat:
 # Run a full release / PR test.
 # (| is for not running suites in parallel)
 release-test: | asan tsan pristine-full compat
+
+
+-include $(DEPS)
